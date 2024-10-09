@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <form action="/pagina-cadastro-devs-form" method="post">
+
+        
+        <h1 class="titulo">Cadastro de DEVS</h1>
+        <p class="subtitulo">Faça já sua inscrição</p>
+
+        <label for="nome"><strong>Nome:</strong></label>
+        <input type="text" name="nome" class="nome" required>
+
+        <label for="sobrenome"><strong>Sobrenome:</strong></label>
+        <input type="text" name="sobrenome" class="sobrenome" required>
+
+        <label for="telefone">Telefone:</label>
+        <input id="tel" type="tel" placeholder="(XX) XXXXXX-XXXX">
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" required>
+
+        <h4>Em qual lado da aplicação você desenvolve?</h4>
+
+        <label for="html">Front-End</label>
+        <input id="html" name="apli" type="radio">
+
+        <label for="html">Back-End</label>
+        <input id="html" name="apli" type="radio">
+
+        <label for="html">Full-Stack</label>
+        <input id="html" name="apli" type="radio">
+
+        <h4>Nível de Experiência:</h4>
+
+        <select>
+            <option>Selecione</option>
+            <option>Junior</option>
+            <option>Pleno</option>
+            <option>Sênior</option>
+            <option>Master</option>
+        </select>
+
+        <h4>Seleciona quais tecnologias você trabalha:</h4>
+
+        <input id="html" type="checkbox">
+        <label for="html">HTML</label>
+
+        <input id="css" type="checkbox">
+        <label for="css">CSS</label>
+
+        <input id="java" type="checkbox">
+        <label for="java">Java</label>
+
+        <input id="javascript" type="checkbox">
+        <label for="javascript">Javascript</label>
+
+        <input id="sql" type="checkbox">
+        <label for="sql">Banco de Dados</label>
+
+        <input id="php" type="checkbox">
+        <label for="php">PHP</label>
+
+        <input id="python" type="checkbox">
+        <label for="python">Python</label>
+
+        <p></p>
+
+        <label for="experiência">Conte um pouco de sua experiência:</label>
+        <textarea id="experiência" cols="70" rows="3"></textarea>
+
+        <p></p>
+
+        <button type="submit">Enviar</button>
+
+

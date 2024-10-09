@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 70px;
+}
+
+.subtitulo {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 100px;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 1em;
+    color: black;
+    margin-left: 500px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+input,
+select,
+textarea,
+button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 0.2em;
+    color: black;
+    display: block; 
+}
+
+fieldset.grupo.campo {
+    float: left;
+    margin-right: 30px;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    display: flex;
+}
+
+.campo select option {
+    padding-right: 10px;
+}
+
+.experiencia {
+    row-gap: 6;
+    width: 500px;
+    height: 60px;
+}
+
+.campo input :focus,
+.campo select :focus,
+.campo textarea :focus {
+    background-color: aliceblue;
+}
+
+.button {
+    font-size: 30px;
+    background-color: blue;
+    border: 0;
+    margin-bottom: 2px;
+    color: floralwhite;
+    padding: 2px;
+    box-shadow: 2px, 2px, 2px black;
+    text-shadow: 1px, 1px, 1px black;
+    position: absolute;
+    top: 550px;
+    left: 600px;
+    margin-right: 50%;
+}
